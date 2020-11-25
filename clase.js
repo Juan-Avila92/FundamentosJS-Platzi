@@ -1,14 +1,14 @@
-var nombre = 'Juan'
-var apellido = 'Avila'
-console.log('Hola ' + nombre + ' ' + apellido)
+var edad = 28
 
-var nombreEnMayusculas = nombre.toUpperCase()
-var apellidoEnMinusculas = apellido.toLowerCase()
-var primeraLetraDelNombre = nombre.charAt(0)
-var cantidadDeLetrasDelNomber = nombre.length
+var peso = 75
+peso -= 2
 
-var nombreCompleto = `${nombre} ${apellido}`
+var precioDelVino = 200.3
 
-var string = nombre.substr(1,2)
+var total = Math.round(precioDelVino * 100 * 3) / 100
+var totalString = total.toFixed(3)
+var totalDecimal = parseFloat(totalString)
 
-var ultimaLetraDelNombre = nombre.substr(nombre.length)
+var pizza = 8
+var personas = 2
+var cantidadDePorcionesPorPersona = pizza / personas
