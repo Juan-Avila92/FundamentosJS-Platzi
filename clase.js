@@ -10,3 +10,5 @@ var cantidadDeLetrasDelNomber = nombre.length
 var nombreCompleto = `${nombre} ${apellido}`
 
 var string = nombre.substr(1,2)
+
+var ultimaLetraDelNombre = nombre.substr(nombre.length)
