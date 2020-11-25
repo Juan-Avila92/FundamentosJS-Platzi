@@ -8,3 +8,5 @@ var primeraLetraDelNombre = nombre.charAt(0)
 var cantidadDeLetrasDelNomber = nombre.length
 
 var nombreCompleto = `${nombre} ${apellido}`
+
+var string = nombre.substr(1,2)
